@@ -33,8 +33,8 @@
         <img src="./images/area_and_perimeter.png" alt="formula image" />
       </div>
       <div class="page2-content-php">
-        <p>Area is:</p>
-        <p>Perimeter is: </p>
+        <p>The area is:</p>
+        <p>The perimeter is: </p>
       </div>
       <br />
       <form action="answer.php" method="GET">
