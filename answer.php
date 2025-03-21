@@ -37,11 +37,11 @@
         <?php echo '<p>The perimeter is:' . 5 * 3, "cm²" . ' </p>'; ?>
       </div>
       <br />
-      <form action="answer.php" method="GET">
+      <form action="index.php" method="GET">
         <button id="btn-click"
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           type="submit">
-          Retrun
+          Return
         </button>
       </form>
     </main>
