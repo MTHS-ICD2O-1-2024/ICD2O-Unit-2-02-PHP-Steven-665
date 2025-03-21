@@ -33,15 +33,15 @@
         <img src="./images/area_and_perimeter.png" alt="formula image" />
       </div>
       <div class="page2-content-php">
-        <p>Area is:</p>
-        <p>Perimeter is: </p>
+        <?php echo '<p>The area is:  ' . (2 * (5 + 3)), "cm" . ' </p>'; ?>
+        <?php echo '<p>The perimeter is:' . 5 * 3, "cm²" . ' </p>'; ?>
       </div>
       <br />
       <form action="answer.php" method="GET">
         <button id="btn-click"
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           type="submit">
-          Calculate
+          Retrun
         </button>
       </form>
     </main>
